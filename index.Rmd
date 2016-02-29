@@ -1,0 +1,66 @@
+---
+title       : Tracking recession indicators
+subtitle    : 
+author      : Brian Howard
+job         : Developing Data Projects
+framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
+highlighter : highlight.js  # {highlight.js, prettify, highlight}
+hitheme     : tomorrow      # 
+widgets     : []            # {mathjax, quiz, bootstrap}
+mode        : selfcontained # {standalone, draft}
+knit        : slidify::knit2slides
+---
+
+## Recessions
+
+Economies have periods of growth and contraction.
+
+
+The times of contraction are referred to as recessions.
+
+
+Four economic measurments have value in determining when the economy has entered a recession.
+
+--- .class #id 
+
+## Unemployment
+
+As an economy contracts the unemployment tends to rise. 
+
+The Shiny application includes a data series that plots the unemployement rate (U-3) alongside recessions
+
+These recessions are defined by the National Bureau of Economic Research (NBER).
+
+--- .class #id 
+
+## Industrial Production
+
+As an economy contracts it produces less, both of services and products. 
+
+One way to track the output of the economy is by measuring the output of the industrial sector. 
+
+The Shiny application includes a data series that plots industrial production against the NBER recessions.
+
+--- .class #id 
+
+## Real retail sales
+
+Contraction in spending usually accompanies a recession.
+
+In recent decades in the U.S. consumer spending has been a key driver of the economy.
+
+The Shiny application includes a data series of real retail sales (sales that have been corrected for inflation) against the NBER recession data.
+
+--- .class #id
+
+## Real personal income
+
+Along with declinces in employment and production, incomes also decline during a recession.
+
+The Bureau of Economic Analysis tracks real personal income (income corrected for inflation).
+
+The Shiny application plots this real personal income against the NBER recession data.
+
+
+
+
